@@ -1,0 +1,97 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.venv
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+gesehen.db
+flet_app/data/*.db
+*.db-journal
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Flet specific
+flet_app/.flet/
+*.flet
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.cover
+.coverage.*
+.cache
+
+# Misc
+*.bak
+*.tmp
+*.temp
+*.orig
+
+# Playwright
+playwright-report/
+test-results/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node modules (if any)
+node_modules/
+
+# API keys and secrets
+*.key
+*.pem
+secrets/

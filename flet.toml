@@ -1,0 +1,19 @@
+[assets]
+dirs = ["flet_app/data"]
+
+[android]
+package = "com.katzensuchapp.app"
+min_sdk = 21
+target_sdk = 34
+compile_sdk = 34
+
+[android.build-tools]
+version = "34.0.0"
+
+[flet]
+web = true
+
+[env]
+API_HOST = "http://192.168.2.13"
+API_PORT = "5000"
+API_BASE_URL = "http://192.168.2.13:5000"

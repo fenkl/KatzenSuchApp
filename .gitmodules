@@ -1,0 +1,3 @@
+[submodule "libs/flet_base"]
+	path = libs/flet_base
+	url = https://github.com/fenkl/FletBase.git
